@@ -71,7 +71,7 @@ We could build a system that nobody wanted, hope to show some early success with
 
 ![Baseball players leaving cornfield]({{ site.baseurl }}/images/fieldofdreamscorn.png)
 
- `If you build it, they will come.Good movie, bad business.`
+ `If you build it, they will come.  Good movie, bad business.`
 
 
 **So we drank**
@@ -84,7 +84,7 @@ The original premise was good.  We stayed on that path and late on Saturday nig
 
 <a href="{{ site.baseurl }}/images/sproutmobile.png">![SproutHub Mobile]({{ site.baseurl }}/images/sproutmobile.png)</a>
 
-Since the farmers were out, we decided to buy a truck and cut them out of the loop.  Here is our [investor pitch](http://lotsofgigs.wordpress.com/?attachment_id=906).  I think its a great idea, but we all knew that we didn't want to spend our nights driving a truck from farm to market no matter how solid the financials were.  Instead we spent all day Sunday working on the pitch just hoping we wouldn't look like idiots.  I wish the pitch was on video because it was great.  Here is my favorite graphic and a compelling argument for our idea:
+Since the farmers were out, we decided to buy a truck and cut them out of the loop.  Here is our [investor pitch]({{ site.baseurl }}/postfiles/startup-weekend-pitch.pptx).  I think its a great idea, but we all knew that we didn't want to spend our nights driving a truck from farm to market no matter how solid the financials were.  Instead we spent all day Sunday working on the pitch just hoping we wouldn't look like idiots.  I wish the pitch was on video because it was great.  Here is my favorite graphic and a compelling argument for our idea:
 
 
 <a href="http://lotsofgigs.wordpress.com/2012/09/26/startup-weekend-louisville-sept-14-16-2012/startup-weekend-pitch/" rel="attachment wp-att-906"></a>
