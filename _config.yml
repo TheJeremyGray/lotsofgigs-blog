@@ -19,3 +19,4 @@ github_username:  jeremy-gray
 
 # Build settings
 markdown: kramdown
+permalink: /archive/:year/:month/:day/:title/
