@@ -19,8 +19,6 @@ My friend Alan and I responded to the following craigslist post
 We have 6 to 8 large, mature Walnut trees on our property. All are old growth, and have been here since before the neighborhood was created back in the 60s. We have been told they would be great for anyone with a woodworking business . Worst case scenario, you have a **** ton of hard firewood for the winter. You can have the timber/lumber from these trees, all you have to do is cut it down. They are TALL. You will need a bucket truck or something comparable for this. If some brave soul wants to climb for this gig, that's all on you. Actual timber companies welcome, so are private individuals.
 
 
-
-
 <a href="{{ site.baseurl }}/images/property.jpg">!["Gallagher at a Farmers Market]({{ site.baseurl }}/images/property.jpg)</a>
 
 We met the property owner and came up with an arrangement.  Basically, we are going to cut the trees down for free, take the trunks and he is going to clean up all the mess.
