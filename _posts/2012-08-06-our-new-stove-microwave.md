@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archivepost
 title: "Our New Stove / Microwave"
 date: 2012-08-06 11:39
 author: Jeremy Gray

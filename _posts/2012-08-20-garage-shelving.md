@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archivepost
 title: "Garage Shelving"
 date: 2012-08-20 09:00
 author: Jeremy Gray

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archivepost
 title: "Windows Service Project - Where it Ended Up"
 date: 2012-09-03 09:00
 author: Jeremy Gray

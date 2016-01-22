@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archivepost
 title: "Entity Framework 4.3 Code First"
 date: 2012-09-10 09:00
 author: Jeremy Gray

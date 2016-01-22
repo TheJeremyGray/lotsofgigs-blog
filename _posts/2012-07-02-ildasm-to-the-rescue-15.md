@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archivepost
 title: "ILDASM to the Rescue!"
 date: 2012-07-02 13:16
 author: Jeremy Gray

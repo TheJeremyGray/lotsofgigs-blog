@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archivepost
 title: "Week 06 - Repetition"
 date: 2011-02-09 10:48
 author: jlubb224

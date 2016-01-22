@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archivepost
 title: "Lumberjackin Update "
 date: 2012-10-01 03:00
 author: Jeremy Gray

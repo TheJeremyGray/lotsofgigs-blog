@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archivepost
 title: "Adventures in SSL land"
 date: 2012-08-13 10:42
 author: Jeremy Gray

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archivepost
 title: "Week 04 - Colorful"
 date: 2011-01-26 11:27
 author: jlubb224

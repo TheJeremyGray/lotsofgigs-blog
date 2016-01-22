@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archivepost
 title: "Windows Service Project - Introduction"
 date: 2012-08-27 09:00
 author: Jeremy Gray

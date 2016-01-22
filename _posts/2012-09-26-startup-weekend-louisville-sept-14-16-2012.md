@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archivepost
 title: "Startup Weekend - Louisville Sept 14 - 16 2012"
 date: 2012-09-26 09:00
 author: Jeremy Gray

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archivepost
 title: "License to Kill Gophers"
 date: 2012-08-29 09:00
 author: Jeremy Gray

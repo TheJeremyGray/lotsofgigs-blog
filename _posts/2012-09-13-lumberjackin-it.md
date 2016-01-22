@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archivepost
 title: "Lumberjackin it"
 date: 2012-09-13 13:01
 author: Jeremy Gray

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archivepost
 title: "Week 03 - Control"
 date: 2011-01-19 11:30
 author: jlubb224

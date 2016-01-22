@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archivepost
 title: "Week 15 - Movement"
 date: 2011-04-19 22:33
 author: jlubb224

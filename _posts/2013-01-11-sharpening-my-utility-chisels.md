@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archivepost
 title: "Sharpening my Utility Chisels"
 date: 2013-01-11 14:04
 author: Jeremy Gray

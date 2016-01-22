@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: archivepost
 title: "Week 01 - Electricity"
 date: 2011-01-11 23:45
 author: jlubb224
