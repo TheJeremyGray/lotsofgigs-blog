@@ -30,7 +30,7 @@ So I did a quick dis-assembly of the DLL with [ILDASM](http://msdn.microsoft.c
 
 >ildasm /text/ /output="c:\test.txt" "c:\pathToBinary\DevExpress.XtraRichEdit.v12.1.dll"
 
-
+~~~~~~~~
 .method public hidebysig newslot specialname virtual final
 instance valuetype ['**DevExpress.Office.v12.1.Core**']DevExpress.XtraRichEdit.DocumentLayoutUnit
 get_LayoutUnit() cil managed
@@ -39,6 +39,7 @@ get_LayoutUnit() cil managed
 IL_000e: callvirt instance valuetype ['**DevExpress.Office.v12.1.Core**']DevExpress.XtraRichEdit.DocumentLayoutUnit ['DevExpress.RichEdit.v12.1.Core']DevExpress.XtraRichEdit.Internal.InnerRichEditDocumentServer::get_LayoutUnit()
 ...
 } // end of method RichEditControl::get_LayoutUnit
+~~~~~~~~
 
 I deployed this new assembly and voilà! the exception is no more.
 
