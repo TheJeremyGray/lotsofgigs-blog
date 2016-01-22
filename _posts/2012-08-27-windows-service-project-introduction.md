@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Service Project - Introduction"
 date: 2012-08-27 09:00
-author: lotsofgigs
+author: Jeremy Gray
 comments: true
 categories: [software]
 tags: [C#, jeremy, opensource, software, Windows Service]

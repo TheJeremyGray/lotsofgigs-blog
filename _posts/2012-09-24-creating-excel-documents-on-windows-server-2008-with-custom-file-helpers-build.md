@@ -2,7 +2,7 @@
 layout: post
 title: "Creating Excel documents on Windows Server 2008 with Custom File Helpers Build"
 date: 2012-09-24 09:09
-author: lotsofgigs
+author: Jeremy Gray
 comments: true
 categories: [software]
 tags: [C#, excel, fail, jeremy, software, windows server 2008]

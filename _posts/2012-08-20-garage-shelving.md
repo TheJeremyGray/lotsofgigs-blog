@@ -2,7 +2,7 @@
 layout: post
 title: "Garage Shelving"
 date: 2012-08-20 09:00
-author: lotsofgigs
+author: Jeremy Gray
 comments: true
 categories: [home projects]
 tags: [Buildin Stuff, jeremy, renovation, wood]

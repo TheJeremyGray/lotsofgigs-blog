@@ -2,7 +2,7 @@
 layout: post
 title: "Adventures in SSL land"
 date: 2012-08-13 10:42
-author: lotsofgigs
+author: Jeremy Gray
 comments: true
 categories: [software]
 tags: [.NET Bug, fiddler2, HTTP, jeremy, software, SSL, TLS]

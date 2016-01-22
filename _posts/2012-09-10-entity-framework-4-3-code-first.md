@@ -2,7 +2,7 @@
 layout: post
 title: "Entity Framework 4.3 Code First"
 date: 2012-09-10 09:00
-author: lotsofgigs
+author: Jeremy Gray
 comments: true
 categories: [software]
 tags: [C#, Entity Framework, jeremy]

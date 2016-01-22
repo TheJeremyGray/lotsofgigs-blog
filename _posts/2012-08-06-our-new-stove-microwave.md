@@ -2,7 +2,7 @@
 layout: post
 title: "Our New Stove / Microwave"
 date: 2012-08-06 11:39
-author: lotsofgigs
+author: Jeremy Gray
 comments: true
 categories: [home projects]
 tags: [Breakin Stuff, GE Profile, jeremy, renovation]

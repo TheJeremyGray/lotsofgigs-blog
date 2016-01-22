@@ -2,7 +2,7 @@
 layout: post
 title: "Startup Weekend - Louisville Sept 14 - 16 2012"
 date: 2012-09-26 09:00
-author: lotsofgigs
+author: Jeremy Gray
 comments: true
 categories: [software]
 tags: [farmers market, jeremy, quoting myself, sprouthub, startup weekend]

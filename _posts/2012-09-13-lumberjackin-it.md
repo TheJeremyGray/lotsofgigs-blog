@@ -2,7 +2,7 @@
 layout: post
 title: "Lumberjackin it"
 date: 2012-09-13 13:01
-author: lotsofgigs
+author: Jeremy Gray
 comments: true
 categories: [Uncategorized]
 tags: [jeremy, lumberjackin, projects, sawmill, wood]

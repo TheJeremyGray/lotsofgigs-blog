@@ -2,7 +2,7 @@
 layout: post
 title: "Windows Service Project - Where it Ended Up"
 date: 2012-09-03 09:00
-author: lotsofgigs
+author: Jeremy Gray
 comments: true
 categories: [software]
 tags: [C#, jeremy, software, Windows Service]

@@ -2,7 +2,7 @@
 layout: post
 title: "License to Kill Gophers"
 date: 2012-08-29 09:00
-author: lotsofgigs
+author: Jeremy Gray
 comments: true
 categories: [Uncategorized]
 tags: [Buildin Stuff, caddyshack, jeremy]

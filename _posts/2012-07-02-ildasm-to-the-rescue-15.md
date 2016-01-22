@@ -2,7 +2,7 @@
 layout: post
 title: "ILDASM to the Rescue!"
 date: 2012-07-02 13:16
-author: lotsofgigs
+author: Jeremy Gray
 comments: true
 categories: [software]
 tags: [C#, DevExpress 12.1 Upgrade, Disassembler, ILDASM, software]

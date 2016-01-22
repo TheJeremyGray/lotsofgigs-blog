@@ -2,7 +2,7 @@
 layout: post
 title: "Lumberjackin Update "
 date: 2012-10-01 03:00
-author: lotsofgigs
+author: Jeremy Gray
 comments: true
 categories: [Uncategorized]
 tags: []
