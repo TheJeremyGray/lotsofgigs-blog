@@ -20,7 +20,7 @@ I pulled out every trick in my book, ignoring invalid certificates, pre-authenti
 
 All along I was only getting one request/response from the server ([status code 200](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes), which is why I was pretty sure the issue was on my end.)
 
-<a href="http://lotsofgigs.files.wordpress.com/2012/08/untitled1.png">![](http://lotsofgigs.files.wordpress.com/2012/08/untitled1.png "Fiddler Requst")</a>
+<a href="{{ site.baseurl }}/images/untitled1.png">![Fiddler Requst]({{ site.baseurl }}/images/untitled1.png)</a>
 
 So I called my friend [Arthur](http://devarthur.blogspot.com) and asked him to take a look.  He updated the timeout to 5 minutes and took the maxReceivedMessageSize up to int.MaxValue.  He sent me a different error, below, that I was able to reproduce (HTTP stayed the same).
 
@@ -32,27 +32,33 @@ This turned out to be exactly what I needed.  I was pretty sure the server cert
 Here are the ciphers in the SSL handshake, if you are interested in learning more about how an SSL session is created...try this [link](http://lmgtfy.com/?q=SSL+Handshake)
 
 **Me**
-<p style="padding-left:30px;">*[002F] TLS_RSA_AES_128_SHA*
-* [0035] TLS_RSA_AES_256_SHA*
-* [0005] SSL_RSA_WITH_RC4_128_SHA*
-* [000A] SSL_RSA_WITH_3DES_EDE_SHA*
-* [C013] TLS1_CK_ECDHE_RSA_WITH_AES_128_CBC_SHA*
-* [C014] TLS1_CK_ECDHE_RSA_WITH_AES_256_CBC_SHA*
-* [C009] TLS1_CK_ECDHE_ECDSA_WITH_AES_128_CBC_SHA*
-* [C00A] TLS1_CK_ECDHE_ECDSA_WITH_AES_256_CBC_SHA*
-* [0032] TLS_DHE_DSS_WITH_AES_128_SHA*
-* [0038] TLS_DHE_DSS_WITH_AES_256_SHA*
-* [0013] SSL_DHE_DSS_WITH_3DES_EDE_SHA*
-* [0004] SSL_RSA_WITH_RC4_128_MD5*
+
+~~~~~~~~
+[002F] TLS_RSA_AES_128_SHA
+[0035] TLS_RSA_AES_256_SHA
+[0005] SSL_RSA_WITH_RC4_128_SHA
+[000A] SSL_RSA_WITH_3DES_EDE_SHA
+[C013] TLS1_CK_ECDHE_RSA_WITH_AES_128_CBC_SHA
+[C014] TLS1_CK_ECDHE_RSA_WITH_AES_256_CBC_SHA
+[C009] TLS1_CK_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+[C00A] TLS1_CK_ECDHE_ECDSA_WITH_AES_256_CBC_SHA
+[0032] TLS_DHE_DSS_WITH_AES_128_SHA
+[0038] TLS_DHE_DSS_WITH_AES_256_SHA
+[0013] SSL_DHE_DSS_WITH_3DES_EDE_SHA
+[0004] SSL_RSA_WITH_RC4_128_MD5
+~~~~~~~~
 
 **Them**
-<p style="padding-left:30px;">* [0005] SSL_RSA_WITH_RC4_128_SHA
-**[000A] SSL_RSA_WITH_3DES_EDE_SHA
-**[0013] SSL_DHE_DSS_WITH_3DES_EDE_SHA
-**[0004] SSL_RSA_WITH_RC4_128_MD5
-**[00FF] TLS_EMPTY_RENEGOTIATION_INFO_SCSV*
 
-My problem has always been that I got the initial 200 response from the server and then nothing else ever happened.  This finally started to get more clear.  I was asking for *[002F] TLS_RSA_AES_128_SHA *and they were sending back *[00FF] TLS_EMPTY_RENEGOTIATION_INFO_SCSV. * I've never dealt with this renegotiate flag before and had to look up the specifics in [RFC 5746 Section 3.3](http://tools.ietf.org/html/rfc5746).  In plain English this means, I want TLS, but they only support SSLv3.  But somehow we aren't communicating the renegotiation.
+~~~~~~~~
+[0005] SSL_RSA_WITH_RC4_128_SHA
+[000A] SSL_RSA_WITH_3DES_EDE_SHA
+[0013] SSL_DHE_DSS_WITH_3DES_EDE_SHA
+[0004] SSL_RSA_WITH_RC4_128_MD5
+[00FF] TLS_EMPTY_RENEGOTIATION_INFO_SCSV
+~~~~~~~~
+
+My problem has always been that I got the initial 200 response from the server and then nothing else ever happened.  This finally started to get more clear.  I was asking for *[002F] TLS_RSA_AES_128_SHA* and they were sending back *[00FF] TLS_EMPTY_RENEGOTIATION_INFO_SCSV.* I've never dealt with this renegotiate flag before and had to look up the specifics in [RFC 5746 Section 3.3](http://tools.ietf.org/html/rfc5746).  In plain English this means, I want TLS, but they only support SSLv3.  But somehow we aren't communicating the renegotiation.
 
 The fix, completed in a single line of code, forced my end to use SSLv3
 
